@@ -173,6 +173,7 @@ type CalendarProps = React.PropsWithChildren<
       showPreviousMonths?: boolean;
       monthsShown?: number;
       monthSelectedIn?: number;
+      ref: React.Ref<HTMLInputElement>;
       onSelect: (
         day: Date,
         event?:

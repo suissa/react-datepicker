@@ -11,26 +11,12 @@
   "module": "dist/es/index.js",
   "unpkg": "dist/react-datepicker.min.js",
   "style": "dist/react-datepicker.min.css",
-  "files": [
-    "*.md",
-    "dist",
-    "lib",
-    "es",
-    "src/stylesheets"
-  ],
-  "sideEffects": [
-    "**/*.css"
-  ],
-  "keywords": [
-    "react",
-    "datepicker",
-    "calendar",
-    "date",
-    "react-component"
-  ],
+  "files": ["*.md", "dist", "lib", "es", "src/stylesheets"],
+  "sideEffects": ["**/*.css"],
+  "keywords": ["react", "datepicker", "calendar", "date", "react-component"],
   "repository": {
     "type": "git",
-    "url": "git://github.com/Hacker0x01/react-datepicker.git"
+    "url": "git://github.com/suissa/react-datepicker.git"
   },
   "bugs": {
     "url": "https://github.com/Hacker0x01/react-datepicker/issues"
@@ -124,10 +110,6 @@
     "prepare": "husky"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx,json,css,scss,md}": [
-      "prettier --write",
-      "git add"
-    ]
-  },
-  "packageManager": "yarn@4.4.0"
+    "*.{js,jsx,ts,tsx,json,css,scss,md}": ["prettier --write", "git add"]
+  }
 }
