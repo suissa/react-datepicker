@@ -690,6 +690,9 @@
   display: inline-block;
   width: 100%;
 }
+:global .react-datepicker__input-container input {
+  width: 100%;
+}
 :global .react-datepicker__input-container .react-datepicker__calendar-icon {
   position: absolute;
   padding: 0.5rem;
